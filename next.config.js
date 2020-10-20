@@ -30,7 +30,7 @@ Module.prototype.require = function (modulePath) {
 }
 
 module.exports = {
-  target: 'serverless',
+  target: 'server',
   async rewrites() {
     return [
       {
